@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo 44',
+      title: 'Flutter Demo 55',
       home: const MyHomePage(title: 'Changes on main and it should conflict'),
       theme: ThemeData(
         // the quick brown fox over the lazy dog
@@ -34,7 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      // the quick brown fox over the lazy dog
       _counter++;
     });
   }

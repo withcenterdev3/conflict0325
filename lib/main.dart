@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo 2',
-      home: const MyHomePage(title: 'Update and changes on Home Title Page 99'),
+      title: 'Flutter Demo 44',
+      home: const MyHomePage(title: 'Changes on main and it should conflict'),
       theme: ThemeData(
         // the quick brown fox over the lazy dog
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),

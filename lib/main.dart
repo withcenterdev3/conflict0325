@@ -10,12 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo 2',
-      home: const MyHomePage(title: 'Update and changes on Home Title Page 99'),
-      theme: ThemeData(
-        // the quick brown fox over the lazy dog
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
+      title: 'Flutter Demo 3',
+      home: const MyHomePage(title: 'v3 another changes'),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
     );
   }
 }
@@ -34,7 +31,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      // the quick brown fox over the lazy dog
       _counter++;
     });
   }
